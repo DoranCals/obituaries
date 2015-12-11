@@ -15,11 +15,11 @@ def buildPhrase(nameList, verbList, nounList, possStart):
     noun = nounList[n]
     
     if n >= possStart:
-	# ex: "Alice was killed by Bob's gun."
+	# ex: "Alice| was killed by| |Bob|'s gun."
 	result =  '{Name}{Verb} {Name2}{Noun}'.format(
 	    Name = names[0], Verb = verb, Name2 = names[1], Noun = noun)
     else:
-	# ex: "Alice was killed by bullets."
+	# ex: "Alice| was killed by| bullets."
 	result =  '{Name}{Verb}{Noun}'.format(
 	    Name = names[0], Verb = verb, Noun = noun)
     
@@ -34,10 +34,12 @@ if __name__ == '__main__':
     parser.add_argument('PossList', nargs='?', default='poss.txt', type=str, help='Path to a list of possessives')
     args = parser.parse_args()
     
-    # By using standard input, entering a small list of nmes is easier.
+    # Use standard input so entering a small list of names is easier.
     nameList = []
     for line in sys.stdin:
 	nameList.append(line.rstrip('\n') )
+    if len(nameList) < 2:
+	sys.exit('Need at least two names.')
     #nameList = [line.rstrip('\n') for line in fileinput.input()]
     verbList = [line.rstrip('\n') for line in open(args.VerbList)]
     nounList = [line.rstrip('\n') for line in open(args.NounList)]
