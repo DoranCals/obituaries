@@ -14,7 +14,7 @@ another player name will be used to complete it.
 
 ### EXAMPLES
 
-Make Alice, Bob, and Charlie "die":
+Make Alice, Bob, or Charlie "die":
 ```
 $ obituaries
 Enter names (^D to finish):
