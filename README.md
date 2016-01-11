@@ -1,7 +1,15 @@
 # Obituaries
 
 Randomly generates silly death notices from a predefined list of phrases.
-Intended for use similar to "fortune"
+Intended for use similar to "fortune".
+
+This repo includes an extensive phrase list,
+and an example name.txt file with a list of default names.
+Feel free to add to the phrase list,
+but I suggest creating your own names for use on your own.
+For instance, try piping file or process names into this program.
+
+## Usage
 
 Takes three files as arguments: verb phrases, noun phrases, and possessives.
 If no arguments are given, the program will look for files
