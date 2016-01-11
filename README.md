@@ -1,6 +1,7 @@
 # Obituaries
 
 Randomly generates silly death notices from a predefined list of phrases.
+Intended for use similar to "fortune"
 
 Takes three files as arguments: verb phrases, noun phrases, and possessives.
 If no arguments are given, the program will look for files
@@ -17,7 +18,6 @@ another player name will be used to complete it.
 Make Alice, Bob, or Charlie "die":
 ```
 $ obituaries
-Enter names (^D to finish):
 > Alice
 > Bob
 > Charlie

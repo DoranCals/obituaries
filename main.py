@@ -20,7 +20,7 @@ def buildPhrase(nameList, verbList, nounList, possStart):
 	    Name = names[0], Verb = verb, Name2 = names[1], Noun = noun)
     else:
 	# ex: "Alice| was killed by| bullets."
-	result =  '{Name}{Verb}{Noun}'.format(
+	result =  '{Name}{Verb} {Noun}'.format(
 	    Name = names[0], Verb = verb, Noun = noun)
     
     return result

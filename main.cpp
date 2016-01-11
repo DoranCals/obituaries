@@ -32,8 +32,8 @@ string buildPhrase(vector<string> nameList, vector<string> verbList,
     a = rand() % nameList.size();
     do b = rand() % nameList.size(); while (b == a);
     
-    result = nameList[a] + verbList[v];
-    if (n >= possStart) result = result + ' ' + nameList[b];
+    result = nameList[a] + verbList[v] + ' ';
+    if (n >= possStart) result = result + nameList[b];
     result += nounList[n];
     
     return result;
