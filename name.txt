@@ -1,26 +1,68 @@
-Alpha
-Bravo
-Charlie
-Delta
-Echo
-Foxtrot
-Gulf
-Hotel
-India
-Juliet
-Kilo
-Lima
-Mike
-November
-Oscar
-Papa
-Quebec
-Romeo
-Sierra
-Tango
-Uniform
-Victor
-Whiskey
-X-ray
-Yankee
-Zulu
+Mario
+Luigi
+Dr. Mario
+Donkey Kong
+Link
+Young Link
+Toon Link
+Samus
+Yoshi
+Kirby
+Fox
+Falco
+Wolf
+Pikachu
+Pichu
+Captain Falcon
+Ness
+Lucas
+Jigglypuff
+Peach
+Bowser
+Zelda
+Sheik
+Ganondorf
+Mewtwo
+Popo
+Nana
+Marth
+Lucina
+Roy
+Diddy Kong
+Zero Suit Samus
+Meta Knight
+Dedede
+Squirtle
+Ivysaur
+Charizard
+Lucario
+Ike
+Pit
+Dark Pit
+Wario
+Olimar
+Alph
+A Pikmin
+ROB
+Snake
+Sonic
+Knuckles
+Rosalina
+Luma
+Greninja
+Robin
+Palutena
+Villager
+Little Mac
+Wii Fit Trainer
+Shulk
+The dog
+The duck
+The shooter
+Mega Man
+Rockman
+Pac-Man
+Ryu
+Cloud
+Corrin
+Bayonetta
