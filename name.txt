@@ -42,7 +42,7 @@ Dark Pit
 Wario
 Olimar
 Alph
-A Pikmin
+Pikmin
 ROB
 Snake
 Sonic
@@ -56,9 +56,9 @@ Villager
 Little Mac
 Wii Fit Trainer
 Shulk
-The dog
-The duck
-The shooter
+Duck Hunt Dog
+Duck
+Duck Hunter
 Mega Man
 Rockman
 Pac-Man
